@@ -13,30 +13,31 @@
 
 
 ## Initial Schema
-root
- |-- ageofparticipant: long (nullable = true)
- |-- clinician: struct (nullable = true)
- |    |-- branch: string (nullable = true)
- |    |-- name: string (nullable = true)
- |    |-- role: string (nullable = true)
- |-- drug_used: string (nullable = true)
- |-- experimentenddate: string (nullable = true)
- |-- experimentstartdate: string (nullable = true)
- |-- noofhourspassedatfirstreaction: long (nullable = true)
- |-- result: struct (nullable = true)
- |    |-- conclusion: string (nullable = true)
- |    |-- sideeffectsonparticipant: string (nullable = true)
-
+root<br><ol>
+ <li>|-- ageofparticipant: long (nullable = true)</li>
+ <li>|-- clinician: struct (nullable = true)</li>
+ <li>|    |-- branch: string (nullable = true)</li>
+ <li>|    |-- name: string (nullable = true)</li>
+ <li>|    |-- role: string (nullable = true)</li>
+ <li>|-- drug_used: string (nullable = true)</li>
+ <li>|-- experimentenddate: string (nullable = true)</li>
+ <li>|-- experimentstartdate: string (nullable = true)</li>
+ <li>|-- noofhourspassedatfirstreaction: long (nullable = true)</li>
+ <li>|-- result: struct (nullable = true)</li>
+ <li>|    |-- conclusion: string (nullable = true)</li>
+ <li>|    |-- sideeffectsonparticipant: string (nullable = true)</li>
+</ol>
 
  ## Final Schema
- root
- |-- age_of_participant: long (nullable = true)
- |-- clinic_branch: string (nullable = true)
- |-- head_clinician: string (nullable = true)
- |-- assistants_role: string (nullable = true)
- |-- drug_used: string (nullable = true)
- |-- experiment_end_date: string (nullable = true)
- |-- experiment_start_date: string (nullable = true)
- |-- hours_passed_at_first_reaction: long (nullable = true)
- |-- conclusion: string (nullable = true)
- |-- observed_side_effects: string (nullable = true)
+ root<br><ol>
+ <li>|-- age_of_participant: long (nullable = true)</li>
+ <li>|-- clinic_branch: string (nullable = true)</li>
+ <li>|-- head_clinician: string (nullable = true)</li>
+ <li>|-- assistants_role: string (nullable = true)</li>
+ <li>|-- drug_used: string (nullable = true)</li>
+ <li>|-- experiment_end_date: string (nullable = true)</li>
+ <li>|-- experiment_start_date: string (nullable = true)</li>
+ <li>|-- hours_passed_at_first_reaction: long (nullable = true)</li>
+ <li>|-- conclusion: string (nullable = true)</li>
+ <li>|-- observed_side_effects: string (nullable = true)</li>
+ </ol>
