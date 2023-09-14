@@ -13,7 +13,7 @@
 
 
 ## Initial Schema
-root<br><ol>
+root<br><ul>
  <li>|-- ageofparticipant: long (nullable = true)</li>
  <li>|-- clinician: struct (nullable = true)</li>
  <li>|    |-- branch: string (nullable = true)</li>
@@ -26,18 +26,20 @@ root<br><ol>
  <li>|-- result: struct (nullable = true)</li>
  <li>|    |-- conclusion: string (nullable = true)</li>
  <li>|    |-- sideeffectsonparticipant: string (nullable = true)</li>
-</ol>
+</ul>
 
  ## Final Schema
- root<br><ol>
+ root<br><ul>
  <li>|-- age_of_participant: long (nullable = true)</li>
  <li>|-- clinic_branch: string (nullable = true)</li>
+ <li>|-- branch: string (nullable = true)</li>
  <li>|-- head_clinician: string (nullable = true)</li>
  <li>|-- assistants_role: string (nullable = true)</li>
  <li>|-- drug_used: string (nullable = true)</li>
  <li>|-- experiment_end_date: string (nullable = true)</li>
  <li>|-- experiment_start_date: string (nullable = true)</li>
  <li>|-- hours_passed_at_first_reaction: long (nullable = true)</li>
+ <li>|-- result: struct (nullable = true)</li>
  <li>|-- conclusion: string (nullable = true)</li>
  <li>|-- observed_side_effects: string (nullable = true)</li>
- </ol>
+ </ul>
